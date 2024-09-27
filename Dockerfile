@@ -6,7 +6,7 @@ COPY package.json .
 
 RUN npm install
 
-COPY ../Springboot/board-app-backend .
+COPY . .
 
 EXPOSE 3000
 
