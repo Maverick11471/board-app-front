@@ -71,7 +71,7 @@ const Join = () => {
                 return;
             }
 
-            const response = await axios.post('http://211.188.53.72:9090/members/username-check', {
+            const response = await axios.post('http://211.188.54.102:9090/members/username-check', {
                 username: joinForm.username
             });
 
@@ -100,7 +100,7 @@ const Join = () => {
                 return;
             }
 
-            const response = await axios.post('http://211.188.53.72:9090/members/nickname-check', {
+            const response = await axios.post('http://211.188.54.102:9090/members/nickname-check', {
                 nickname: joinForm.nickname
             });
 
