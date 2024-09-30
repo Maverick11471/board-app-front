@@ -461,7 +461,7 @@ const Board = () => {
                                      className='fileImg'
                                      id={`img${boardFile.id}`}
                                      src={boardFile.filetype === 'image'
-                                        ? `https://kr.object.ncloudstorage.com/bitcamp-57/${boardFile.filepath}${boardFile.filename}`
+                                        ? `https://kr.object.ncloudstorage.com/bitcamp66/${boardFile.filepath}${boardFile.filename}`
                                         : '/images/defaultFileImg.png'
                                      }
                                      onClick={() => openChangeFileInput(boardFile.id)}
